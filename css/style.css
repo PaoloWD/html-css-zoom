@@ -29,6 +29,13 @@ small{
     border: none;
 }
 
+.nav-bot-container button{
+    border: none;
+    padding: 1rem;
+    background-color: rgb(74,	74,	74);
+    color: red;
+}
+
 .main-container{
     background-color: var(--color-black);
     height: 100vh;
@@ -96,7 +103,7 @@ small{
     color: var(--color-white);
 }
 
-.mic-video{
+.icons{
     display: flex;
     align-items: center;
     gap: 0rem .5rem;
@@ -107,6 +114,10 @@ small{
     color: var(--color-white);
 }
 
-.mic{
+.words{
+    font-size: .7rem;
+}
+
+.container-icon{
     text-align: center;
 }

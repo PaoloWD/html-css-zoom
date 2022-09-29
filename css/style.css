@@ -56,12 +56,15 @@ small{
     align-items: flex-end;
     color: var(--color-white);
     margin: .5vw;
+    height: 5vh;
     justify-content: flex-end;
     flex-grow: 1;
 }
 
 .imgs-container{
     flex-grow: 2;
+    height: calc(100vh - 15vh);
+    overflow: auto;
 }
 
 .cards-container{
@@ -69,7 +72,6 @@ small{
     padding: 1vh 2vw;
     flex-wrap: wrap;
     gap: 1vh 0.5vw;
-    max-height: calc(100vh - 150px);
     flex-grow: 2;
 }
 
@@ -91,12 +93,12 @@ small{
     flex-grow: 1;
     justify-content: space-between;
     background-color: var(--color-light-gray);
+    height: 10vh;
 }
 
 .nav-bot{
     display: flex;
     color: var(--color-white);
-    height: 10vh;
     align-items: center;
     padding: .5vw;
 }

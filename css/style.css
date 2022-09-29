@@ -1,7 +1,8 @@
 :root{
     --color-black: black;
     --color-white: white;
-    --color-light-gray: rgb(34,	34,	34)	
+    --color-light-gray: rgb(34,	34,	34);
+    --color-green: green;
 }
 
 *{
@@ -99,10 +100,6 @@ small{
     padding: .5vw;
 }
 
-.icon{
-    color: var(--color-white);
-}
-
 .icons{
     display: flex;
     align-items: center;
@@ -114,10 +111,10 @@ small{
     color: var(--color-white);
 }
 
-.words{
-    font-size: .7rem;
-}
-
 .container-icon{
     text-align: center;
+}
+
+.green{
+    color: var(--color-green);
 }
